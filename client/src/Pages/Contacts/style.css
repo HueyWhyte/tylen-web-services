@@ -1,0 +1,120 @@
+.Contacts_Container {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_top_section {
+  background-color: rgb(230, 178, 178);
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(#00000098, black),
+    url("../../assets/img/kevin.jpg") fixed center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.page_heading {
+  font-size: 75px;
+}
+
+.contact_cards {
+  width: 300px;
+  margin-right: 13px;
+}
+
+.contact_item {
+  display: flex;
+  background-color: #f3f3f3;
+  border-radius: 7px;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.circle_img {
+  width: 55px;
+  height: 55px;
+  background-color: rebeccapurple;
+  border-radius: 100px;
+}
+
+.info_texts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.form_container {
+  background-color: #f3f3f3;
+  padding: 8px;
+  border-radius: 7px;
+  width: 400px;
+  margin-left: 13px;
+}
+
+.form_container input {
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 12px;
+  height: 35px;
+  padding: 0 12px 0 12px;
+}
+.form_container textarea {
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.map_image {
+  width: 70%;
+  height: 400px;
+  margin-top: 12;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .page_heading {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .contact_cards {
+    margin-right: 0;
+  }
+
+  .form_container {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .map_image {
+    width: 90%;
+    height: 230px;
+    margin-top: 12;
+    border-radius: 3px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,61 @@
+.BlogDetails_Container {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+}
+
+.blog_d_top_section {
+  background-color: rgb(230, 178, 178);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(#00000098, black),
+    url("../../assets/img/kevin.jpg") fixed center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.post_details {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.comment_section {
+  padding: 20px;
+  width: 81%;
+  margin: 0 auto 0 auto;
+  background-color: #dddddd;
+  margin-bottom: 50px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .post_details {
+    width: 98%;
+  }
+
+  .comment_section {
+    width: 95%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

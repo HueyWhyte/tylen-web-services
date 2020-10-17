@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&family=Mukta:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+/* font-family: 'Caladea', serif; */
+/* font-family: 'Mukta', sans-serif; */
+/* font-family: 'Abel', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #006bbb;
+  --light-blue: #30a0e0;
+  --dark-yellow: #ffc872;
+  --light-yellow: #ffe3be;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abel", sans-serif;
+}
+
+p {
+  font-size: 18.5px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
